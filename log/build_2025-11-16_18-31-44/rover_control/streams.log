@@ -1,0 +1,63 @@
+[0.184s] Invoking command in '/home/tural/ros2_ws/build/rover_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tural/ros2_ws/src/rover_control -DCMAKE_INSTALL_PREFIX=/home/tural/ros2_ws/install/rover_control
+[0.228s] -- The C compiler identification is GNU 11.5.0
+[0.282s] -- The CXX compiler identification is GNU 11.5.0
+[0.310s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.392s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.392s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.498s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.498s] -- Detecting CXX compile features
+[0.498s] -- Detecting CXX compile features - done
+[0.501s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.624s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.737s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.780s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.797s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.937s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.943s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.041s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.065s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.086s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.221s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.249s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.276s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[1.284s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.470s] -- Configuring done (1.3s)
+[1.482s] -- Generating done (0.0s)
+[1.486s] -- Build files have been written to: /home/tural/ros2_ws/build/rover_control
+[1.494s] Invoked command in '/home/tural/ros2_ws/build/rover_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tural/ros2_ws/src/rover_control -DCMAKE_INSTALL_PREFIX=/home/tural/ros2_ws/install/rover_control
+[1.495s] Invoking command in '/home/tural/ros2_ws/build/rover_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tural/ros2_ws/build/rover_control -- -j16 -l16
+[1.538s] [ 50%] Building CXX object CMakeFiles/goal_sender.dir/goal_sender.cpp.o
+[1.538s] [ 50%] Building CXX object CMakeFiles/odom_printer.dir/src/odom_printer.cpp.o
+[1.641s] [ 75%] Linking CXX executable goal_sender
+[1.649s] [100%] Linking CXX executable odom_printer
+[1.836s] [100%] Built target goal_sender
+[1.937s] [100%] Built target odom_printer
+[1.948s] Invoked command in '/home/tural/ros2_ws/build/rover_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tural/ros2_ws/build/rover_control -- -j16 -l16
+[1.949s] Invoking command in '/home/tural/ros2_ws/build/rover_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tural/ros2_ws/build/rover_control
+[1.955s] -- Install configuration: ""
+[1.955s] -- Installing: /home/tural/ros2_ws/install/rover_control/lib/rover_control/goal_sender
+[1.955s] -- Set non-toolchain portion of runtime path of "/home/tural/ros2_ws/install/rover_control/lib/rover_control/goal_sender" to ""
+[1.955s] -- Installing: /home/tural/ros2_ws/install/rover_control/lib/rover_control/odom_printer
+[1.958s] -- Set non-toolchain portion of runtime path of "/home/tural/ros2_ws/install/rover_control/lib/rover_control/odom_printer" to ""
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/ament_index/resource_index/package_run_dependencies/rover_control
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/ament_index/resource_index/parent_prefix_path/rover_control
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/environment/ament_prefix_path.sh
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/environment/ament_prefix_path.dsv
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/environment/path.sh
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/environment/path.dsv
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/local_setup.bash
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/local_setup.sh
+[1.958s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/local_setup.zsh
+[1.959s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/local_setup.dsv
+[1.959s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/package.dsv
+[1.959s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/ament_index/resource_index/packages/rover_control
+[1.959s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/cmake/rover_controlConfig.cmake
+[1.959s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/cmake/rover_controlConfig-version.cmake
+[1.959s] -- Installing: /home/tural/ros2_ws/install/rover_control/share/rover_control/package.xml
+[1.960s] Invoked command in '/home/tural/ros2_ws/build/rover_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tural/ros2_ws/build/rover_control

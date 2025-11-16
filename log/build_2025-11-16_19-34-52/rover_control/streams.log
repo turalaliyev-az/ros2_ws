@@ -1,0 +1,27 @@
+[0.011s] Invoking command in '/home/tural/ros2_ws/build/rover_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tural/ros2_ws/build/rover_control -- -j16 -l16
+[0.138s] [ 50%] Built target goal_sender
+[0.139s] [ 75%] Building CXX object CMakeFiles/odom_printer.dir/src/odom_printer.cpp.o
+[6.399s] [100%] Linking CXX executable odom_printer
+[6.686s] [100%] Built target odom_printer
+[6.694s] Invoked command in '/home/tural/ros2_ws/build/rover_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tural/ros2_ws/build/rover_control -- -j16 -l16
+[6.703s] Invoking command in '/home/tural/ros2_ws/build/rover_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tural/ros2_ws/build/rover_control
+[6.711s] -- Install configuration: ""
+[6.712s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/lib/rover_control/goal_sender
+[6.712s] -- Installing: /home/tural/ros2_ws/install/rover_control/lib/rover_control/odom_printer
+[6.716s] -- Set non-toolchain portion of runtime path of "/home/tural/ros2_ws/install/rover_control/lib/rover_control/odom_printer" to ""
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/ament_index/resource_index/package_run_dependencies/rover_control
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/ament_index/resource_index/parent_prefix_path/rover_control
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/environment/ament_prefix_path.sh
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/environment/ament_prefix_path.dsv
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/environment/path.sh
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/environment/path.dsv
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/local_setup.bash
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/local_setup.sh
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/local_setup.zsh
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/local_setup.dsv
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/package.dsv
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/ament_index/resource_index/packages/rover_control
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/cmake/rover_controlConfig.cmake
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/cmake/rover_controlConfig-version.cmake
+[6.716s] -- Up-to-date: /home/tural/ros2_ws/install/rover_control/share/rover_control/package.xml
+[6.717s] Invoked command in '/home/tural/ros2_ws/build/rover_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tural/ros2_ws/install/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tural/ros2_ws/build/rover_control

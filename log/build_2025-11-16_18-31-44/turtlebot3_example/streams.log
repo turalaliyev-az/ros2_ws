@@ -1,0 +1,82 @@
+[0.605s] Invoking command in '/home/tural/ros2_ws/src/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/tural/ros2_ws/install/turtlebot3_msgs:/home/tural/ros2_ws/install/turtlebot3:/home/tural/ros2_ws/install/turtlebot3_simulations:/home/tural/ros2_ws/install/turtlebot3_bringup:/home/tural/ros2_ws/install/turtlebot3_node:/home/tural/ros2_ws/install/turtlebot3_navigation2:/home/tural/ros2_ws/install/turtlebot3_fake_node:/home/tural/ros2_ws/install/turtlebot3_gazebo:/home/tural/ros2_ws/install/turtlebot3_description:/home/tural/ros2_ws/install/turtlebot3_cartographer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tural/ros2_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/tural/ros2_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/tural/ros2_ws/build/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/tural/ros2_ws/build/turtlebot3_example:/home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/tural/ros2_ws/build/turtlebot3_example/build install --record /home/tural/ros2_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[0.787s] running egg_info
+[0.787s] creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[0.800s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.800s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.800s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.800s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.800s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.801s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.828s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.828s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.828s] running build
+[0.828s] running build_py
+[0.829s] creating /home/tural/ros2_ws/build/turtlebot3_example/build
+[0.829s] creating /home/tural/ros2_ws/build/turtlebot3_example/build/lib
+[0.829s] creating /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.829s] copying turtlebot3_example/__init__.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.829s] creating /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[0.829s] copying turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[0.829s] copying turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[0.831s] creating /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[0.831s] copying turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[0.831s] copying turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[0.832s] creating /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.832s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.832s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.832s] creating /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[0.832s] copying turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[0.832s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[0.832s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[0.832s] creating /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[0.832s] copying turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[0.832s] copying turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[0.833s] running install
+[0.837s] running install_lib
+[0.851s] creating /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example
+[0.851s] creating /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move
+[0.851s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move
+[0.851s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move
+[0.851s] creating /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[0.851s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[0.851s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[0.851s] creating /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.851s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.852s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.852s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example
+[0.852s] creating /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[0.852s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[0.852s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[0.852s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol
+[0.852s] creating /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[0.852s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[0.852s] copying /home/tural/ros2_ws/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[0.852s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move/__init__.py to __init__.cpython-312.pyc
+[0.852s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py to turtlebot3_relative_move.cpython-312.pyc
+[0.853s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker/__init__.py to __init__.cpython-312.pyc
+[0.853s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py to turtlebot3_interactive_marker.cpython-312.pyc
+[0.854s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-312.pyc
+[0.854s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-312.pyc
+[0.855s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/__init__.py to __init__.cpython-312.pyc
+[0.855s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/__init__.py to __init__.cpython-312.pyc
+[0.855s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-312.pyc
+[0.856s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-312.pyc
+[0.856s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py to turtlebot3_absolute_move.cpython-312.pyc
+[0.857s] byte-compiling /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example/turtlebot3_absolute_move/__init__.py to __init__.cpython-312.pyc
+[0.857s] running install_data
+[0.857s] creating /home/tural/ros2_ws/install/turtlebot3_example/share/ament_index
+[0.857s] creating /home/tural/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index
+[0.857s] creating /home/tural/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.857s] copying resource/turtlebot3_example -> /home/tural/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.857s] copying package.xml -> /home/tural/ros2_ws/install/turtlebot3_example/share/turtlebot3_example
+[0.857s] running install_egg_info
+[0.875s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3_example-2.3.3-py3.12.egg-info
+[0.876s] running install_scripts
+[0.969s] Installing turtlebot3_absolute_move script to /home/tural/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.970s] Installing turtlebot3_interactive_marker script to /home/tural/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.970s] Installing turtlebot3_obstacle_detection script to /home/tural/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.970s] Installing turtlebot3_patrol_client script to /home/tural/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.970s] Installing turtlebot3_patrol_server script to /home/tural/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.970s] Installing turtlebot3_relative_move script to /home/tural/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.970s] writing list of installed files to '/home/tural/ros2_ws/build/turtlebot3_example/install.log'
+[0.998s] Invoked command in '/home/tural/ros2_ws/src/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/tural/ros2_ws/install/turtlebot3_msgs:/home/tural/ros2_ws/install/turtlebot3:/home/tural/ros2_ws/install/turtlebot3_simulations:/home/tural/ros2_ws/install/turtlebot3_bringup:/home/tural/ros2_ws/install/turtlebot3_node:/home/tural/ros2_ws/install/turtlebot3_navigation2:/home/tural/ros2_ws/install/turtlebot3_fake_node:/home/tural/ros2_ws/install/turtlebot3_gazebo:/home/tural/ros2_ws/install/turtlebot3_description:/home/tural/ros2_ws/install/turtlebot3_cartographer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tural/ros2_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/tural/ros2_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/tural/ros2_ws/build/turtlebot3_teleop:/home/tural/ros2_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/tural/ros2_ws/build/turtlebot3_example:/home/tural/ros2_ws/install/turtlebot3_example/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/tural/ros2_ws/build/turtlebot3_example/build install --record /home/tural/ros2_ws/build/turtlebot3_example/install.log --single-version-externally-managed install_data
